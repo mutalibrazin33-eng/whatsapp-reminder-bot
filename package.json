@@ -1,0 +1,15 @@
+{
+  "name": "whatsapp-reminder-bot",
+  "version": "1.0.0",
+  "type": "module",
+  "main": "bot.js",
+  "scripts": {
+    "start": "node bot.js"
+  },
+  "dependencies": {
+    "whatsapp-web.js": "^1.25.0",
+    "qrcode-terminal": "^0.12.0",
+    "node-cron": "^3.0.3",
+    "@google/generative-ai": "^0.21.0"
+  }
+}
